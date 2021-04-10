@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name STM32F103RB-rescue)(type Legacy)(uri C:/Users/Lalith/Documents/DOTWORLD/kicad/STM32F103RB/STM32F103RB/STM32F103RB/STM32F103RB-rescue.lib)(options "")(descr ""))
+)

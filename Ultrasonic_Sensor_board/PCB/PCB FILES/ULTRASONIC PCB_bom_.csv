@@ -1,0 +1,57 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Mouser Price/Stock,Mouser Part Number,Manufacturer_Name,Height,RS Price/Stock,RS Part Number,Manufacturer_Part_Number,Field10,Field8,Field9,Field4,Field7,Field6,Field5
+1,"Unpolarized capacitor, small symbol",C_Small,C16 C17,10pF,C_0805_2012Metric,2,~,,,,,,,,,,,,,,
+2,"Unpolarized capacitor, small symbol",C_Small,C18 C19,22pF,C_0805_2012Metric,2,~,,,,,,,,,,,,,,
+3,"Polarized capacitor, small US symbol",CP1_Small,C1,100nF,CP_Radial_D5.0mm_P2.00mm,1,~,,,,,,,,,,,,,,
+4,Unpolarized capacitor,C,C20 C23 C24 C25 C26 C27 C28 C37,100nF,C_0805_2012Metric,8,~,,,,,,,,,,,,,,
+5,Capacitor symbol for simulation only,C,C4 C6,100nF,C_0805_2012Metric,2,~,,,,,,,,,,,,,,
+6,"Polarized capacitor, small US symbol",CP1_Small,C21,1uF,CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder,1,~,,,,,,,,,,,,,,
+7,"Polarized capacitor, small US symbol",CP1_Small,C2,10uF,CP_Radial_D5.0mm_P2.00mm,1,~,,,,,,,,,,,,,,
+8,"Polarized capacitor, small US symbol",CP1_Small,C22,10uF,CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder,1,~,,,,,,,,,,,,,,
+9,"Polarized capacitor, small US symbol",CP1_Small,C38,100uF,CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder,1,~,,,,,,,,,,,,,,
+10,,TAJA105M020RNJ-c1206_smd_tantalum-Door_Locking-rescue,C5,1uF/25V,CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder,1,http://www.farnell.com/datasheets/1680476.pdf,https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJA105M020,581-TAJA105M020,AVX,1.8,http://uk.rs-online.com/web/p/products/1360152,1360152,TAJA105M020RNJ,,,,,,,
+11,,TAJA105M020RNJ-c1206_smd_tantalum-Door_Locking-rescue,C3,4.7uF/25V,CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder,1,http://www.farnell.com/datasheets/1680476.pdf,https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJA105M020,581-TAJA105M020,AVX,1.8,http://uk.rs-online.com/web/p/products/1360152,1360152,TAJA105M020RNJ,,,,,,,
+12,Light emitting diode,LED,D4 D5 D6 D7,LED,LED_0805_2012Metric,4,~,,,,,,,,,,,,,,
+13,"Resettable fuse, polymeric positive temperature coefficient, small symbol",Polyfuse_Small,F2,Polyfuse_Small,C_1206_3216Metric,1,~,,,,,,,,,,,,,,
+14,Ferrite bead,Ferrite_Bead,FB3 FB4,Ferrite_Bead,R_0805_2012Metric,2,~,,,,,,,,,,,,,,
+15,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03_Male,J19 J24,BOOT0,PinHeader_1x03_P2.54mm_Vertical,2,~,,,,,,,,,,,,,,
+16,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J14 J38,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,2,~,,,,,,,,,,,,,,
+17,"Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Counter_Clockwise,J2,Conn_02x03_Counter_Clockwise,PinHeader_2x03_P2.54mm_Vertical,1,~,,,,,,,,,,,,,,
+18,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x02,J1,INPUT_SUPPLY,TerminalBlock_bornier-2_P5.08mm,1,~,,,,,,,,,,,,,,
+19,"Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x04,J3 J4 J5 J6 J7 J8 J9 J10 J11 J12,Screw_Terminal_01x04,Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical,10,~,,,,,,,,,,,,,,
+20,,440247-2-USB_MINI_B-SNAPEDA-Door_Locking-rescue,P2,440247-2,TE_440247-2,1,TE Connectivity,,,,,,,,https://www.te.com/usa-en/product-440247-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493,440247-2,None,None,Mini USB B Type RCPT,Unavailable,440247-2
+21,"Resistor, small symbol",R_Small,R34,470,R_0805_2012Metric,1,~,,,,,,,,,,,,,,
+22,"Resistor, small symbol",R_Small,R2 R7 R8 R9,1K,R_0805_2012Metric,4,~,,,,,,,,,,,,,,
+23,,R_Small_US-Device-esp-max-rescue,R40,1K,R_0805_2012Metric,1,~,,,,,,,,,,,,,,
+24,"Resistor, small symbol",R_Small,R1,1.69K,R_0805_2012Metric,1,~,,,,,,,,,,,,,,
+25,"Resistor, small symbol",R_Small,R4,4.7K,R_0805_2012Metric,1,~,,,,,,,,,,,,,,
+26,"Resistor, small symbol",R_Small,R14 R15 R16 R35 R36,10K,R_0805_2012Metric,5,~,,,,,,,,,,,,,,
+27,"Resistor, US symbol",R_US,R6,10K,R_0805_2012Metric,1,~,,,,,,,,,,,,,,
+28,Resistor,R,R37 R38 R39,12k,R_0805_2012Metric,3,~,,,,,,,,,,,,,,
+29,"Resistor, small symbol",R_Small,R5,100k,R_0805_2012Metric,1,~,,,,,,,,,,,,,,
+30,"Push button switch, generic, two pins",SW_Push,SW4,FLASH,SW_SPST_EVPBF,1,~,,,,,,,,,,,,,,
+31,"Push button switch, generic, two pins",SW_Push,SW3,RESET,SW_SPST_EVPBF,1,~,,,,,,,,,,,,,,
+32,"Push button switch, generic, two pins",SW_Push,SW2,SW_Push,SW_SPST_EVPBF,1,~,,,,,,,,,,,,,,
+33,,IRLR2905TRPBF,T1,IRLR2905TRPBF,TO252-3,1,Infineon Technologies,,,,,,,,,,,,,,
+34,,CP2102-GM-CP2102-GM-Door_Locking-rescue,U7,CP2102-GM,QFN50P500X500X100-29N,1,Silicon Labs,,,,,,,,,QFN-28 Silicon Labs,,336-1160-5-ND,CP2102-GM,https://www.digikey.in/product-detail/en/silicon-labs/CP2102-GM/336-1160-5-ND/696598?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol,Microcontroller Solutions - Interface Products USB to UART Bdg Chip
+35,"ESP8266 ESP-12E module, 22 pins, 2mm, PCB antenna",ESP-12E,U2,ESP-12E,ESP-12E_SMD,1,http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/,,,,,,,,,,,,,,
+36,"3A low dropout linear regulator, adjustable output, TO-263",MIC29302WU,U1,MIC29302WU,TO-263-5_TabPin3,1,http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf,,,,,,,,,,,,,,
+37,"ARM Cortex-M3 MCU, 128KB flash, 20KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64",STM32F103RBTx,U3,STM32F103RBTx,LQFP-64_10x10mm_P0.5mm,1,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf,,,,,,,,,,,,,,
+38,"Bidirectional ESD Protection Diode, SOT-23-6",USBLC6-2SC6,U6,USBLC6-2SC6,SOT-23-6,1,http://www2.st.com/resource/en/datasheet/CD00050750.pdf,,,,,,,,,,,,,,
+39,,MC-306_32.7680K-A5__ROHS-32.768KHz_crystals_smd-Door_Locking-rescue,Y3,32.768Khz,Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm,1,MC-306 32.7680K-A5: ROHS,,,,,,,,,Crystal 32.7680 Khz 12.5pf Smd,,EPSON,Unavailable,None,4-4 Epson
+40,,LFXTAL003237-8MHz_smd_crystal-Door_Locking-rescue,Y4,8mhz,Crystal_HC49-U_Vertical,1,Unavailable,,,,,,,,,LFXTAL003237,,HC49/4HSMX Series 16.000 MHz ±30 ppm 16 pF Low Profile Surface Mount Crystal,None,IQD Frequency Products,HC-49/US IQD Frequency Products
+
+
+
+
+
+Component Groups:,40
+Component Count:,74
+Fitted Components:,74
+Number of PCBs:,1
+Total components:,74
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,[u'default']
+BoM Date:,11/27/2020 7:10:34 PM
+Schematic Source:,ULTRASONIC PCB.sch
+KiCad Version:,Eeschema (5.1.5)-3

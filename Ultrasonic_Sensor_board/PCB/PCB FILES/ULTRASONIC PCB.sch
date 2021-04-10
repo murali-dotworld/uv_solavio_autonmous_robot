@@ -1,0 +1,277 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:MIC29302WU U1
+U 1 1 5EEBBDB9
+P 7050 2250
+F 0 "U1" H 7050 2617 50  0000 C CNN
+F 1 "MIC29302WU" H 7050 2526 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 7150 2000 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf" H 7050 2250 50  0001 C CNN
+	1    7050 2250
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 1600 6000 650  150 
+U 5EF0C326
+F0 "USB TO UART" 50
+F1 "USB.sch" 50
+$EndSheet
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5F06C069
+P 3650 2250
+F 0 "J1" H 3568 1925 50  0000 C CNN
+F 1 "INPUT_SUPPLY" H 3568 2016 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3650 2250 50  0001 C CNN
+F 3 "~" H 3650 2250 50  0001 C CNN
+	1    3650 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6400 2150 6400 2350
+Wire Wire Line
+	6400 2350 6650 2350
+Connection ~ 6400 2150
+Wire Wire Line
+	6400 2150 6650 2150
+$Comp
+L power:GND #PWR03
+U 1 1 5F06CB5C
+P 7050 2700
+F 0 "#PWR03" H 7050 2450 50  0001 C CNN
+F 1 "GND" H 7055 2527 50  0000 C CNN
+F 2 "" H 7050 2700 50  0001 C CNN
+F 3 "" H 7050 2700 50  0001 C CNN
+	1    7050 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2550 7050 2700
+$Comp
+L power:GND #PWR01
+U 1 1 5F06D361
+P 5050 2750
+F 0 "#PWR01" H 5050 2500 50  0001 C CNN
+F 1 "GND" H 5055 2577 50  0000 C CNN
+F 2 "" H 5050 2750 50  0001 C CNN
+F 3 "" H 5050 2750 50  0001 C CNN
+	1    5050 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2600 5050 2750
+$Comp
+L Device:CP1_Small C1
+U 1 1 5F06D793
+P 5950 2400
+F 0 "C1" H 6041 2446 50  0000 L CNN
+F 1 "100nF" H 6041 2355 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5950 2400 50  0001 C CNN
+F 3 "~" H 5950 2400 50  0001 C CNN
+	1    5950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5F06E09D
+P 7950 2250
+F 0 "R1" H 8009 2296 50  0000 L CNN
+F 1 "1.69K" H 8009 2205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7950 2250 50  0001 C CNN
+F 3 "~" H 7950 2250 50  0001 C CNN
+	1    7950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5F06E6CE
+P 7950 2500
+F 0 "R2" H 8009 2546 50  0000 L CNN
+F 1 "1K" H 8009 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7950 2500 50  0001 C CNN
+F 3 "~" H 7950 2500 50  0001 C CNN
+	1    7950 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2150 7950 2150
+Connection ~ 7950 2150
+Wire Wire Line
+	7950 2150 8550 2150
+Wire Wire Line
+	7450 2350 7950 2350
+Wire Wire Line
+	7950 2400 7950 2350
+Connection ~ 7950 2350
+$Comp
+L power:GND #PWR04
+U 1 1 5F06FB35
+P 7950 2750
+F 0 "#PWR04" H 7950 2500 50  0001 C CNN
+F 1 "GND" H 7955 2577 50  0000 C CNN
+F 2 "" H 7950 2750 50  0001 C CNN
+F 3 "" H 7950 2750 50  0001 C CNN
+	1    7950 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2600 7950 2750
+Wire Wire Line
+	5950 2300 5950 2150
+Connection ~ 5950 2150
+Wire Wire Line
+	5950 2150 6150 2150
+$Comp
+L power:GND #PWR02
+U 1 1 5F06FF42
+P 5950 2650
+F 0 "#PWR02" H 5950 2400 50  0001 C CNN
+F 1 "GND" H 5955 2477 50  0000 C CNN
+F 2 "" H 5950 2650 50  0001 C CNN
+F 3 "" H 5950 2650 50  0001 C CNN
+	1    5950 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2500 5950 2650
+$Comp
+L Device:CP1_Small C2
+U 1 1 5F0706E4
+P 8550 2400
+F 0 "C2" H 8641 2446 50  0000 L CNN
+F 1 "10uF" H 8641 2355 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8550 2400 50  0001 C CNN
+F 3 "~" H 8550 2400 50  0001 C CNN
+	1    8550 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2300 8550 2150
+$Comp
+L power:GND #PWR05
+U 1 1 5F0706EB
+P 8550 2650
+F 0 "#PWR05" H 8550 2400 50  0001 C CNN
+F 1 "GND" H 8555 2477 50  0000 C CNN
+F 2 "" H 8550 2650 50  0001 C CNN
+F 3 "" H 8550 2650 50  0001 C CNN
+	1    8550 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2500 8550 2650
+Connection ~ 8550 2150
+Wire Wire Line
+	8550 2150 8900 2150
+Text GLabel 8900 2000 1    50   Input ~ 0
+3v3
+Wire Wire Line
+	8900 2000 8900 2150
+Text GLabel 6150 2050 1    50   Input ~ 0
+5v
+Wire Wire Line
+	6150 2050 6150 2150
+Connection ~ 6150 2150
+Wire Wire Line
+	6150 2150 6400 2150
+Wire Wire Line
+	3850 2150 4750 2150
+Wire Wire Line
+	4750 2300 4750 2150
+Connection ~ 4750 2150
+Wire Wire Line
+	4750 2150 5950 2150
+Wire Wire Line
+	3850 2250 4250 2250
+Wire Wire Line
+	4250 2250 4250 2600
+Wire Wire Line
+	4250 2600 4650 2600
+$Comp
+L IRLR2905TRPBF:IRLR2905TRPBF T1
+U 1 1 5F1B0364
+P 4850 2500
+F 0 "T1" H 5014 2546 50  0000 L CNN
+F 1 "IRLR2905TRPBF" H 5014 2455 50  0000 L CNN
+F 2 "IRLR2905TRPBF:TO252-3" H 4850 2500 50  0001 L BNN
+F 3 "" H 4850 2500 50  0001 C CNN
+	1    4850 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F1B6571
+P 2250 3950
+F 0 "H3" H 2350 3996 50  0000 L CNN
+F 1 "MountingHole" H 2350 3905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 2250 3950 50  0001 C CNN
+F 3 "~" H 2250 3950 50  0001 C CNN
+	1    2250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F1B6995
+P 2200 4350
+F 0 "H1" H 2300 4396 50  0000 L CNN
+F 1 "MountingHole" H 2300 4305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 2200 4350 50  0001 C CNN
+F 3 "~" H 2200 4350 50  0001 C CNN
+	1    2200 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F1B6DAD
+P 3050 3950
+F 0 "H4" H 3150 3996 50  0000 L CNN
+F 1 "MountingHole" H 3150 3905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 3050 3950 50  0001 C CNN
+F 3 "~" H 3050 3950 50  0001 C CNN
+	1    3050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F1B71A3
+P 3050 4350
+F 0 "H2" H 3150 4396 50  0000 L CNN
+F 1 "MountingHole" H 3150 4305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 3050 4350 50  0001 C CNN
+F 3 "~" H 3050 4350 50  0001 C CNN
+	1    3050 4350
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 1650 5550 500  150 
+U 5EFCBE92
+F0 "ESP8266" 50
+F1 "ESP8266.sch" 50
+$EndSheet
+$Sheet
+S 1600 6500 550  150 
+U 5EEA5836
+F0 "ST32F103RBT6" 50
+F1 "STMsch.sch" 50
+$EndSheet
+$Sheet
+S 2800 5550 500  150 
+U 5FB2DB30
+F0 "CONNECTOR" 50
+F1 "CONNECTOR.sch" 50
+$EndSheet
+$EndSCHEMATC
